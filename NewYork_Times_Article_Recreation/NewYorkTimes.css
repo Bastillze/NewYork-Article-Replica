@@ -1,0 +1,219 @@
+
+
+.NewYorkHeader {
+   
+   position: fixed;
+   display: flex;
+   Width: 100%;
+   height: 60px;
+   margin-bottom: 100px;
+   z-index: 10;
+   white-space: nowrap;
+   background: white;
+
+}
+
+
+.Navigation {
+
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background: white ;
+    white-space: nowrap;
+   
+
+}
+
+.hamburgernav {
+    
+    background-image:url('HamburgerNav.png');
+    width: 72px;
+    height:72px;
+    margin-right: 10px;
+}
+
+.Search {
+
+ background-image:url('searchIcon.png');
+ width: 72px;
+ height: 72px;
+ margin-left: 10px;
+ margin-right: 15px;
+ 
+
+
+}
+
+.ArticleCategory {
+
+   margin-left: 5px;
+   margin-right: 5px;
+
+}
+
+p {
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bodytext {
+
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight:normal;
+
+}
+
+
+.NewYorkTimes {
+ 
+  width: 400px;
+  height: 129px;
+  margin-left: 250px;
+  padding-bottom: 50px;
+  
+
+}
+
+.buttons {
+
+    margin-left: 342px;
+}
+
+
+
+.Subscribebutton,
+.Login{
+    cursor: pointer;
+    width: 115px;
+    height: 35px;
+    border-radius: 3px;
+    background-color:rgb(86,123,149);
+    color: white;
+    white-space: nowrap;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.main {
+
+ display: grid;
+ justify-content: space-around;
+ align-items:baseline;
+ padding-top: 92px;
+ z-index: 5;
+ overflow:hidden;
+}
+
+.ArticleTitle{
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+  font-style: italic ;
+  font-weight: bold;
+  margin-left: 400px;
+  margin-right: 400px;
+  
+
+}
+
+.ArticlePicture{
+    position: relative;
+    display: block;
+    Width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;;
+}
+
+figure {
+
+margin: auto auto;
+
+}
+
+.Alan {
+  display: flex;
+  color: grey;
+  font-size:smaller;
+  padding: 2px;
+  margin-left: 200px;
+  margin-right:200px;
+  
+  
+}
+
+
+.ArticleContent {
+
+  display: grid;
+  margin-left: 400px;
+  margin-right: 400px;
+
+
+}
+
+.TheoryofInflation{
+
+  margin: auto auto auto auto;
+
+}
+
+.Telescope {
+ padding-left: 200px;
+ padding-right: 200px;
+ 
+}
+
+.Belescope,
+.Belescope2 {
+
+display: flex;
+color: grey;
+
+}
+
+.ArticleBottom {
+
+ display: flex;
+ color: grey;
+ font-size:smaller;
+
+}
+
+.FatFooter {
+
+  display: flex;
+
+}
+
+.news,
+.Opinion,
+.Arts,
+.Living,
+.More{
+
+ justify-content: left;
+
+}
+
+
+
+ul {
+
+  list-style: none;
+  padding: 20px;
+  padding-left: 5px;
+  
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 5px;
+}
